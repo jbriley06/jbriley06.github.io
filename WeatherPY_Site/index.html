@@ -7,32 +7,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-  body {
-      position: relative; 
-  }
-  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
-  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
-  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
-  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
-  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
-  #section43 {padding-top:50px;height:500px;color: #fff; background-color: #f4511e;}
-  @media screen and (max-width: 768px) {
-    .col-sm-4 {
-      text-align: center;
-      margin: 25px 0;
-    }
-    .btn-lg {
-        width: 100%;
-        margin-bottom: 35px;
-    }
-  }
-  @media screen and (max-width: 480px) {
-    .logo {
-        font-size: 150px;
-    }
-  }
-  </style>
+  <link rel="stylesheet" href="styles.css">
+
+
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -80,7 +57,7 @@
 
 <!-- start next container -->
 
-<div class ="container-fluid" >
+<!-- <div class ="container-fluid" >
     <div class="row">
         <div class="col-md-6 col-sm-6" id="main-panel-1">
             <h1>Summary:Latitude vs. X </h1>
@@ -95,118 +72,129 @@
         </div>
 
     </div>
-</div>
+</div> -->
 
 
-<div class="col-md-4 col-sm-4" id="main-panel-2">
-    <h1>Visualizations</h1>
-    <hr>
+<!-- <div class="col-md-6 col-sm-6" id="main-panel-2">
+  <h1>Visualizations</h1>
+  <hr>
 
-    <div class="rows">
+  <div class="rows">
 
-            <div class="col-md-5 col-sm-5" id="image-4"> 
-
-                
-                    <img src="ClCovLat.png " height="100%" width="100%"  alt="">  
-                
-
-            </div>
-            
-            
-            <div class="col-md-5 col-sm-5" id="image-4" >
-
-                
-                    <img src="HumvLat.png" height="100%" width="100%" alt="">  
-                
-            </div>
-            
-            
-            <div class="col-md-5 col-sm-5" id="image-4" >
-
-                 
-                    <img src="WSvLat.png"  height="100%" width="100%" alt="">  </div>
-                 
-            
-            <div class="col-md-5 col-sm-5" id="image-4" > 
-               
-                
-                    <img src="LatvTemp.png"  height="100" width="100%" alt=""> 
-                
-
-            </div>
-
-            
-            <!-- move down
-            <div style="height:400px;"></div> -->
-
-            <div style="height:400px;"></div> -->
+    <div class="col-md-5 col-sm-5" id="images-main">
 
 
-
-        </div>
-
+      <img src="ClCovLat.png " height="100%" width="100%" alt="">
 
 
-
-        <!-- <div class= "row">
-        <div class="col-md-4 col-sm-4" id="images">
-                <img src="ClCovLat.png" height="100%" width="100%" alt="">
-
-        </div>
+    </div>
 
 
-        <div class="col-md-4 col-sm-4" id="images">
-                
-            <img src="HumvLat.png" height="100%" width="100%" alt="">
+    <div class="col-md-5 col-sm-5" id="images-main">
+
+
+      <img src="HumvLat.png" height="100%" width="100%" alt="">
+
+    </div>
+
+
+    <div class="col-md-5 col-sm-5" id="images-main">
+
+
+      <img src="WSvLat.png" height="100%" width="100%" alt=""> 
     
-         </div>
-         
-         <div class="col-md-4 col-sm-4" id="images">
-                <img src="WSvLat.png" height="100%" width="100%" alt="">
-                
-                                
-        </div>
-        
+    
+    </div>
 
-     
-        <div class="col-md-4 col-sm-4" id="images">
-                <img src="LatvTemp.png" height="100%" width="100%" alt="">
-        
-        </div> -->
+    <div class="col-md-5 col-sm-5" id="images-main">
+
+
+        <img src="LatvTemp.png" height="100%" width="100%" alt="">
+  
+  
+    </div>
     
        
     
 
-</div>
-<!-- <div id="section1" class="container-fluid">
-  <h1>Section 1</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="section2" class="container-fluid">
-  <h1>Section 2</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="section3" class="container-fluid">
-  <h1>Section 3</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="section41" class="container-fluid">
-  <h1>Section 4 Submenu 1</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="section42" class="container-fluid">
-  <h1>Section 4 Submenu 2</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="section43" class="container-fluid">
-        <h1>Section 4 Submenu 3</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-      </div> -->
+</div> -->
+
+<!-- data layout container-fluid -->
+
+<div class="container">
+
+    <!-- grid system -->
+
+    <div class="row">
+
+        <!-- 1st left panel summary layout -->
+        <div class="col-md-6 col-sm-6" id="main-panel-1">
+        
+          <h1>Summary: Latitude vs X</h1>
+          <hr>
+        
+          <img src="LatvTemp.png" height="50%" width="50%"=alt="">
+          <div style="height:10px;"></div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat magni quia cupiditate officiis illo minima autem temporibus
+            ullam fugit et. Necessitatibus, rerum aliquam! Eligendi expedita voluptatem voluptates quae architecto facilis.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum cum vero nemo dolorem, soluta reprehenderit itaque veniam
+            eius non consequuntur sint eveniet, maxime voluptatem excepturi quas. Enim quod voluptas amet.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum tenetur quidem laudantium vitae eum. Labore dolores maiores,
+            earum a suscipit veritatis sapiente nostrum vitae assumenda consectetur pariatur qui obcaecati repudiandae.</p>
+        
+        </div>
+        <!-- 1st left panel summary layout -->
+        
+        
+        <!-- 2st left panel summary layout -->
+        <div class="col-md-5 col-sm-5" id="main-panel-2">
+        
+          <h2>Visualizations</h2>
+        
+          <hr>
+        
+          <div class="rows">
+        
+            <div class="col-md-5 col-sm-5" id="images-main">
+        
+        
+              <img src="ClCovLat.png" height="100%" width="100%" alt="">
+        
+        
+            </div>
+        
+        
+            <div class="col-md-5 col-sm-5" id="images-main">
+        
+        
+              <img src="HumvLat.png" height="100%" width="100%" alt="">
+        
+            </div>
+        
+        
+            <div class="col-md-5 col-sm-5" id="images-main">
+        
+        
+              <img src="WSvLat.png" height="100%" width="100%" alt=""> </div>
+        
+        
+            <div class="col-md-5 col-sm-5" id="images-main">
+        
+        
+              <img src="LatvTemp.png" height="100%" width="100%" alt="">
+        
+        
+            </div>
+        
+        
+            <!-- move down
+                            <div style="height:400px;"></div> -->
+        
+        
+        
+        
+        
+          </div>
+
 </body>
 </html>
